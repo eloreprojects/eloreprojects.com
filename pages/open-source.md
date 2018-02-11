@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Open Source Projects
+title: Our Projects
 keywords: open-source, GitHub
 description: Open source changes the world
-permalink: /open-source/
+permalink: /projects/
 ---
 
 {% if site.github.public_repositories != null %}
@@ -12,7 +12,7 @@ permalink: /open-source/
 <section class="container">
     <header class="text-center">
         <h1>Open Source Projects</h1>
-        <p class="lead">I have <span class="repo-count">{{ sorted_repos.size }}</span> projects on Github</p>
+        <p class="lead">We have <span class="repo-count">{{ sorted_repos.size }}</span> projects on Github</p>
     </header>
     <div class="repo-list">
         <!-- Check here for github metadata -->
