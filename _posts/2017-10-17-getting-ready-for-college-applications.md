@@ -1,7 +1,9 @@
 ---
 layout: post
 title: "Getting Ready for College Applications"
-description: "Tips to be best prepared to tackle the journey ahead."
+categories: CollegeApps
+description: A non-technical introduction to artificial intelligence.
+keywords: college
 ---
 
 College applications is a daunting process, for those who have not started yet. In this post, we talk about the ways to best prepare yourself for college applications, from the software you use to how to organize your files.
