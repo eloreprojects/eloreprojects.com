@@ -7,8 +7,7 @@ keywords: hackathons
 ---
 
 ![](/images/posts/development/tdsoh_1.png)
-
-HBO’s Silicon Valley accurately depicts working next to other coders (and is the show that the Big Bang Theory should have been.
+*HBO’s Silicon Valley accurately depicts working next to other coders (and is the show that the Big Bang Theory should have been).*
 
 
 I used to be super big on hackathons (I still kind of am). I’ve competed in them, won them and even organized them, urging new developers to compete. After all, the best of the development community is embodied through hackathons. This is still true; however, hackathons serve a very specific purpose and to attend for other reasons can actually be a bad thing.
@@ -27,8 +26,7 @@ The mentality that your projects are disposable in this way can affect your long
 Ever felt like you’ve been snubbed for an award at a hackathon? You aren’t alone. Hackathon prizes dictate projects and since a weekend isn’t enough time to develop a vast amount of projects, winners are often decided by a pitch rather than a project.
 
 ![](/images/posts/development/tdsoh_2.png)
-
-Some hackathon teams even have a dedicated business development member for this exact reason.
+*Some hackathon teams even have a dedicated business development member for this exact reason.*
 
 The teams that are judged for their technical merit still aren’t always judged fairly. Hackathons operate under the “honor code”, which can allow unethical teams to get a head-start on their projects. When the stakes are high enough, a million-dollar prize for example, [corruption is likely to occur](https://medium.com/@aliciatweet/the-dirty-secret-behind-the-salesforce-1m-hackathon-b839268fb82d#.rus0rxm9n). Sponsors have little incentive to be more strict with judging since they will have already benefitted: raised awareness for their companies and more projects using their APIs.
 
