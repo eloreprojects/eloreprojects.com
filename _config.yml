@@ -2,7 +2,7 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: https://elore.io
+url: https://site.elore.io
 date_format: "ordinal"
 title: elore
 subtitle: "Machines and the monkeys behind them."
