@@ -5,7 +5,7 @@ baseurl:
 url: https://site.elore.io
 date_format: "ordinal"
 title: elore
-subtitle: "Machines and the monkeys behind them."
+subtitle: "Intelligent machines and the intelligent monkeys behind them."
 description: "elore is an organization dedicated to assisting aspiring computer scientists to become rockstars. We primarily develop and maintain open source technologies, providing new developers the opportunity to tinker with software being used in the real world."
 keywords: elore, coding, hs, college
 timezone: America/Los_Angeles

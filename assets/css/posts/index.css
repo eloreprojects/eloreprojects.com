@@ -66,14 +66,14 @@
 .posts-list-item a {
     font-size: 16px;
     font-weight: normal;
-    font-family: Lato, "PingFang SC", "Microsoft YaHei", sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     line-height: inherit;
     color: #666;
 }
 
 .posts-list-meta {
     font-size: 12px;
-    font-family: Lato, "PingFang SC", "Microsoft YaHei", sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     line-height: 2;
     color: #555;
     background: #fff;
