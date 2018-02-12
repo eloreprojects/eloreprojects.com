@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Visiting Colleges
-categories: CollegeApps
+categories: College
 description: How to prepare & what to expect.
 keywords: visits
 ---

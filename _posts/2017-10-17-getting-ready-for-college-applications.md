@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Getting Ready for College Applications"
-categories: CollegeApps
+categories: College
 description: A non-technical introduction to artificial intelligence.
 keywords: college
 ---

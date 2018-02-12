@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Different Types of Early Applications
-categories: CollegeApps
+categories: College
 description: A walkthrough of the different types of early applications, and what might work best for you.
 keywords: ed, ea, rea, early, application
 ---
