@@ -434,7 +434,16 @@
     max-width: 100%;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
-    box-sizing: border-box
+    box-sizing: border-box;
+    display: block;
+    margin: 0 auto
+}
+
+img + em { 
+    display: block;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 2em
 }
 
 .markdown-body .emoji {

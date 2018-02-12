@@ -1,12 +1,21 @@
 ---
 layout: post
 title: "Getting Ready for College Applications"
-description: "Tips to be best prepared to tackle the journey ahead."
+categories: CollegeApps
+description: A non-technical introduction to artificial intelligence.
+keywords: college
 ---
 
 College applications is a daunting process, for those who have not started yet. In this post, we talk about the ways to best prepare yourself for college applications, from the software you use to how to organize your files.
 
-## A couple things to remember
+## How to Use this Blog
+
+Before we begin, I would like to point out a few resources that helped me along the process. A couple of my favorites are the [ApplyingToCollege subreddit](http://reddit.com/r/applyingtocollege) and the [master list of essay topics from CollegeVine](https://www.collegevine.com/college-essay-prompts/), which is extremely helpful down the road.
+
+Now that you have a few resources to look into, let’s go over how to use this website. This website is designed to give posts more relevant early in your college application process, and will progress to later action items in later pages. There will be some college specific posts at the end of the blog, which will also be linked at the bottom of this post.
+
+
+## A Couple Things to Remember
 
 So far you've worked really hard on school work, and you're finally ready to show it off to colleges. However, there are a few things to remember going into the process:
 
