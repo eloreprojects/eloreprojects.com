@@ -1,0 +1,72 @@
+---
+title: "k-Nearest Neighbors"
+layout: post
+date: 2017-12-8 00:00
+headerImage: false
+star: false
+category: Computation
+author: arun
+description: A gentle introduction to the easiest machine learning algorithm.
+---
+
+# An Overview
+
+It is recommended to begin your machine learning journey through the k-Nearest Neighbors (kNN) algorithm since it's a very easy machine learning algorithm to understand and implement (and one of the most fun!). kNN is a supervised classification algorithm in that it allows us to determine which category a given input belongs to. 
+
+k-Nearest Neighbors is also called a **Lazy Learning** algorithm. Whereas many machine learning algorithms will develop generalizations about the data as its being loaded (also known as **Eager Learning**), kNN delays any computation related to the data until we ask the model to classify a new input. This makes the algorithm relatively easy to implement, but also computationally expensive if we need fast queries. Regardless, kNN is a good algorithm to begin with since the intuition behind it is fairly easy to grasp conceptually.
+
+# The Algorithm
+
+At a super high level, when we input a new datapoint $$P$$ to be classified, the k-Nearest Neighbor algorithm works by taking the $$k$$ most similar datapoints to $$P$$. Whichever class the $$k$$ datapoints are a part of will ultimately be what class $$P$$ belongs to.
+
+Although the algorithm is easy to implement, the data wrangling/analysis is often still a difficult task with kNN. Let's take an example by looking one of my favourite philosophical questions: what differentiates pants from shorts? Assume we have a labelled dataset of pants and shorts (with descriptions about each instance such as price, color, length, thickness etc). 
+
+## Existential datapoint questions
+
+Like many of us, our datapoint $$P$$ is having an existential crisis: "where do I belong?". Thankfully, through Euclidean geometry, we can help $$P$$ answer her question by seeing where the datapoints she is most similar to belong. 
+
+There are many ways to calculate similarity between two peices of information. For example, we can use the [Hamming Distance](https://en.wikipedia.org/wiki/Hamming_distance) (the number of different positions between two bit sequences) or the [Levenshtein Distance](https://en.wikipedia.org/wiki/Damerau%E2%80%93Levenshtein_distance) (the number of edits it takes to change one piece of information into another). However, the distance calculate we are probably most used to using is **Euclidean** Distance (the distance between two elements on a plane). 
+
+In 2 dimensions, we can calculate the distance between two points $$p$$ and $$q$$ using the Pythagorean Theorem, or more formally as $$d = \sqrt{(p_1 - q_1)^2 + (p_2 - q_2)^2}$$ where 1 and 2 represent the first two dimensions of $$p$$ and $$q$$ (in this case $$x=1$$ and $$y=2$$). When we change this to 3 or more dimensions we can rewrite this as $$d = \sqrt{\sum_{i = 1} ^{n} (p_i - q_i)^2}$$ where there are $$n$$ dimensions. If this math scares you, don't worry - we'll stick to 2 dimensions for this guide so you can rely on our friend Pythagoras.
+
+At a slightly lower-level (using Euclidean geometry), given a new datapoint $$P$$, if we were to plot our labeled data in some coordinate system, we could retrieve the $$k$$ **closest** datapoints to where $$P$$ would be plotted. Intuitively, whichever class the most $$k$$ datapoints belong to will be indicative of what class $$P$$ belongs to.
+
+## Plotting pants
+
+The obvious answer to my above question about differentiating between pants and shorts is `"length"` (with an implicit 'duh'). Unsuprisingly, this is actually really good insight for thinking about how we will plot our dataset of pants and shorts.
+
+We want to plot all the pants in our dataset using axes that correspond to the different attributes (or **features**) that tell us the most about whether a given garment is either pants or shorts. To keep us thinking in 2 dimensions, we are going to select two features (resulting in 2 axes): length and price. 
+
+Now, we can plot the pants and shorts accordingly on the graph by designating length to be one axis and price to be the other. Using the Euclidean distance between $$P$$ and the other datapoints, we can determine the $$k$$ nearest neighbors. In python, the distance function will look something like this:
+
+```python
+math.sqrt((length1 - length2) ** 2 + (price1 - price2) ** 2)
+```
+
+After calculating distances by inputting the length and price of $$P$$, we can obtain the $$k$$ nearest neighbors by sorting the list of datapoints by the distance to $$P$$ and taking the first $$k$$ elements:
+
+```python
+neighbors = datapoints[:k]
+```
+
+Finally, we can iterate over `neighbors` and count the number of pants to see if $$P$$ is a pair of pants - a fairly short(s) algorithm!
+
+## FAQ
+
+*Why do we take the $$k$$ nearest neighbors to $$P$$ instead of the **nearest** neighbor?*
+
+Taking the nearest neighbor to $$P$$ is often going to result in outliars in the data to dictate the classification, which is why taking $$k$$ neighbors results in a more "democratic" selection.
+
+*How can we find the optimal value for $$k$$?*
+
+Although $$k$$ is a hyperparameter that we can set, certain values are obviously better than others. A general rule of thumb is often to set $$k = \sqrt{n}$$ where there are $$n$$ instances of data. However, there exist more [advanced techniques](https://en.wikipedia.org/wiki/Cross-validation_(statistics)#K-fold_cross-validation) to determine optimal values for $$k$$.
+
+---
+
+This has been a very brief introduction to the math and intuition behind kNN. There is still a lot more to the algorithm that I haven't touched upon such as normalizing parameters and eliminating bias, but I'd start by actually implenting the algorithm. For a more complete understanding check out **these links**:
+
+- [Scikit Learn (try using kNN for yourself)](http://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html)
+- [Wikipedia (actually a very comprehensive resource)](https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm)
+- [Stanford NLP (math-y but very to-the-point)](https://nlp.stanford.edu/IR-book/html/htmledition/k-nearest-neighbor-1.html)
+
+---

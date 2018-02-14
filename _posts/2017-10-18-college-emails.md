@@ -1,7 +1,7 @@
 ---
 layout: post
 title: College Emails
-categories: CollegeApps
+categories: College
 description: Your inbox is flooded with college emails. Here's what to do.
 keywords: college, emails, application
 ---
