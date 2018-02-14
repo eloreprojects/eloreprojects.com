@@ -27,6 +27,6 @@ When your teacher does offer to write you a letter of reccomendation, offer to m
 
 Along with two teacher reccomendations, you have the option to send a third letter of reccomendation from somone else. This could be your boss, a coach, or even a family friend.
 
-Often, I would not reccomend sending a third letter. This is because the letter may not be written well, and haviang your application reader read something that doesn't inherently add to your character may actually take away from other aspects of your application.
+Often, I would not reccomend sending a third letter. This is because the letter may not be written well, and having your application reader read something that doesn't inherently add to your character may actually take away from other aspects of your application.
 
 
