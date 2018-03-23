@@ -1,7 +1,8 @@
 ---
 layout: post
 title: The Dark Side of Hackathons
-categories: Development
+author: Arun Kirubarajan
+categories: [Software Engineering]
 description: What no new developer can stop dreaming about.
 keywords: hackathons
 ---

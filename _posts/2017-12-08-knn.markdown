@@ -1,11 +1,8 @@
 ---
-title: "k-Nearest Neighbors"
 layout: post
-date: 2017-12-8 00:00
-headerImage: false
-star: false
-category: Computation
-author: arun
+title: "k-Nearest Neighbors"
+author: Arun Kirubarajan
+categories: [Computer Science]
 description: A gentle introduction to the easiest machine learning algorithm.
 ---
 

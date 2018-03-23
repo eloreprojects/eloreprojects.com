@@ -1,11 +1,8 @@
 ---
-title: "Why does 0! = x^0?"
 layout: post
-date: 2017-12-04 12:00
-headerImage: false
-star: false
-category: Computation
-author: arun
+title: "Why does 0! = x^0?"
+author: Arun Kirubarajan
+categories: [Computer Science]
 description: "Using base cases for mathematical intuition."
 ---
 

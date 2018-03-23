@@ -1,11 +1,8 @@
 ---
-title: "A Guide to Password Systems"
 layout: post
-date: 2017-09-04 12:00
-headerImage: false
-star: false
-category: Development
-author: arun
+title: "A Guide to Password Systems"
+author: Arun Kirubarajan
+categories: [Software Engineering]
 description: "How to implement your application’s first and final line of defense."
 ---
 
