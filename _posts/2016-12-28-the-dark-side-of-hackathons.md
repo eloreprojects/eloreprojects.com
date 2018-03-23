@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Dark Side of Hackathons
-categories: Development
+categories: Software Engineering
 description: What no new developer can stop dreaming about.
 keywords: hackathons
 ---

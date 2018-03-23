@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Recommendations for Your Application
-categories: College
+categories: [College Applications]
 description: Which teachers to ask, and how.
 keywords: teacher, reccomendation
 ---

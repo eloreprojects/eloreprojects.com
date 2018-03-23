@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Getting Ready for College Applications"
-categories: College
+categories: [College Applications]
 description: How to prepare for the journey ahead.
 keywords: college
 ---

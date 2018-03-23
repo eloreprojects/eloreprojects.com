@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to Get an Internship as a High School Student
-categories: Jobs
+categories: Industry
 description: Finding a worthwhile internship as a high school student.
 keywords: highschool, internship
 ---

@@ -1,10 +1,10 @@
 ---
 layout: categories
-title: Categories
-description: Categories for our different blogs.
-keywords: Classification
-menu: Classification
-permalink: /categories/
+title: Series
+description: Series for our different blogs.
+keywords: Series
+menu: Series
+permalink: /Series/
 ---
 
 <section class="container posts-content">
