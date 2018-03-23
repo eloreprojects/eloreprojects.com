@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "A Guide to Password Systems"
+author: Arun Kirubarajan
 categories: Software Engineering
 description: "How to implement your application’s first and final line of defense."
 ---

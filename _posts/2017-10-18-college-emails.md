@@ -1,6 +1,7 @@
 ---
 layout: post
 title: College Emails
+author: Neeraj Aggarwal
 categories: [College Applications]
 description: Your inbox is flooded with college emails. Here's what to do.
 keywords: college, emails, application

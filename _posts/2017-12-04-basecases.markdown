@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Why does 0! = x^0?"
+author: Arun Kirubarajan
 categories: [Computer Science]
 description: "Using base cases for mathematical intuition."
 ---

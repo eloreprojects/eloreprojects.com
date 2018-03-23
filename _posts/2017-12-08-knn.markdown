@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "k-Nearest Neighbors"
+author: Arun Kirubarajan
 categories: [Computer Science]
 description: A gentle introduction to the easiest machine learning algorithm.
 ---

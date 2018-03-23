@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Recommendations for Your Application
+author: Neeraj Aggarwal
 categories: [College Applications]
 description: Which teachers to ask, and how.
 keywords: teacher, reccomendation

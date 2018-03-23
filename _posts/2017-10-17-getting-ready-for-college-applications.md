@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Getting Ready for College Applications"
+author: Neeraj Aggarwal
 categories: [College Applications]
 description: How to prepare for the journey ahead.
 keywords: college

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Visiting Colleges
+author: Neeraj Aggarwal
 categories: [College Applications]
 description: How to prepare & what to expect.
 keywords: visits
