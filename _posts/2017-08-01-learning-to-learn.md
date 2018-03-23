@@ -2,7 +2,7 @@
 layout: post
 title: "Learning To Learn"
 author: Arun Kirubarajan
-categories: Software Engineering
+categories: [Software Engineering]
 description: A non-technical introduction to artificial intelligence.
 keywords: ai
 ---
