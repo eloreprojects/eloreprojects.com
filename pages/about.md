@@ -3,8 +3,6 @@ layout: page
 title: About
 description: Everything about elore.
 keywords: About
-comments: true
-menu: 
 permalink: /about/
 ---
 

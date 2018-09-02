@@ -35,6 +35,10 @@ navs:
     label: Series
 
   -
+    href: /projects/
+    label: Projects
+
+  -
     href: /about/
     label: About
 
