@@ -2,7 +2,7 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: https://elore.io
+url: https://eloreprojects.com
 date_format: "ordinal"
 title: elore
 subtitle: "Intelligent machines and the intelligent monkeys behind them."
@@ -17,7 +17,7 @@ side_bar_repo_limit: 5
 # ---------------- #
 author: elore
 organization: elore
-organization_url: elore.io
+organization_url: eloreprojects.com
 github_username: eloreprojects
 location: Cambridge, MA
 email: 
@@ -69,7 +69,7 @@ plugins:
 #        output: true
 #        permalink: /wiki/:path/
 
-repository: eloreprojects/elore.io
+repository: eloreprojects/eloreprojects.com
 
 # ---------------- #
 #      Comments    #

@@ -1,10 +1,10 @@
-# elore.io
+# eloreprojects.com
 
 The homepage for everythinge Elore.
 
 ## Usage
 
-Visit the website at [elore.io](https://elore.io).
+Visit the website at [eloreprojects.com](https://eloreprojects.com).
 
 
 ## Run
