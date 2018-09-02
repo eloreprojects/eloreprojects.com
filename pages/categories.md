@@ -1,10 +1,9 @@
 ---
-layout: categories
+layout: page
 title: Series
 description: Series for our different blogs.
 keywords: Series
-menu: Series
-permalink: /Series/
+permalink: /series/
 ---
 
 <section class="container posts-content">

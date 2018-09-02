@@ -5,7 +5,7 @@ baseurl:
 url: https://eloreprojects.com
 date_format: "ordinal"
 title: elore
-subtitle: "Intelligent machines and the intelligent monkeys behind them."
+subtitle: "An open source community devoted to sharing knowledge on software and computation."
 description: "elore is an organization dedicated to assisting aspiring computer scientists to become rockstars. We primarily develop and maintain open source technologies, providing new developers the opportunity to tinker with software being used in the real world."
 keywords: elore, coding, hs, college
 timezone: America/Los_Angeles
@@ -33,6 +33,10 @@ navs:
   -
     href: /series/
     label: Series
+
+  -
+    href: /projects/
+    label: Projects
 
   -
     href: /about/
