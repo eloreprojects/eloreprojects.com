@@ -5,7 +5,7 @@ baseurl:
 url: https://eloreprojects.com
 date_format: "ordinal"
 title: elore
-subtitle: "An open source community devoted to sharing knowledge on software and computation."
+subtitle: "An open source collective devoted to sharing knowledge on software and computation."
 description: "elore is an organization dedicated to assisting aspiring computer scientists to become rockstars. We primarily develop and maintain open source technologies, providing new developers the opportunity to tinker with software being used in the real world."
 keywords: elore, coding, hs, college
 timezone: America/Los_Angeles
@@ -20,26 +20,22 @@ organization: elore
 organization_url: eloreprojects.com
 github_username: eloreprojects
 location: Cambridge, MA
-email: 
+email:
 
 # ---------------- #
 #    Navigation    #
 # ---------------- #
 navs:
-  -
-    href: /
+  - href: /
     label: Home
 
-  -
-    href: /series/
+  - href: /series/
     label: Series
 
-  -
-    href: /projects/
+  - href: /projects/
     label: Projects
 
-  -
-    href: /about/
+  - href: /about/
     label: About
 
 # ---------------- #
@@ -52,7 +48,7 @@ subscribe_rss: /feed.xml
 # ---------------- #
 markdown: kramdown
 kramdown:
-    input: GFM
+  input: GFM
 highlighter: rouge
 paginate: 8
 lsi: false
@@ -60,13 +56,13 @@ quiet: false
 excerpt_separator: "\n\n"
 permalink: /:year/:month/:day/:title/
 plugins:
-    - jekyll-github-metadata
-    - rouge
-#     - jekyll-html-pipeline
-    - jekyll-paginate
-    - jekyll-sitemap
-    - jekyll-feed
-    - jemoji
+  - jekyll-github-metadata
+  - rouge
+  #     - jekyll-html-pipeline
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jemoji
 #     - jekyll-mentions
 #collections:
 #    wiki:
@@ -84,7 +80,7 @@ repository: eloreprojects/eloreprojects.com
 # !!!Important!!! Please modify infos below to yours
 # https://disqus.com
 #disqus:
-#    username: 
+#    username:
 # https://imsun.net/posts/gitment-introduction/
 #gitment:
 #    owner:
@@ -105,4 +101,4 @@ repository: eloreprojects/eloreprojects.com
 #    Analytics     #
 # ---------------- #
 google:
-    analytics_id: UA-113871936-1
+  analytics_id: UA-113871936-1
