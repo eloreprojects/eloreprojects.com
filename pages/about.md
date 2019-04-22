@@ -7,9 +7,10 @@ permalink: /about/
 ---
 
 ![](/images/about/gary.png){: height="300px" width="300px"}
-*Gary, our spirit animal.*
+_Gary, our spirit animal._
 
 # Let's face it: computer science is hard.
+
 It's huge. It's fast-paced. It can be scary, especially if you're just interested in learning about tech (not one of those crazy coders who've been building computers since elementary school). There's always so much going on with computer science, and it's so technical that finding a good tutorial or class is either too complicated or doesn't scratch the subjects surface.
 
 That's why we created **elore**: to make all aspects of computer science accessible to everybody - from the theory of computer science to the large-scale systems built upon it (and all the side projects in-between).
